@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Learning</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- About tab -->
+    <string name="about_developers_label">Main developers</string>
+    <string name="about_translator_label">Translator</string>
+    <string name="changelog">Changelog</string>
+    <string name="translator"></string>
+    <string name="about_version_label">Version</string>
+    <string name="about_source_label">Source code</string>
+    <string name="about_libraries_label">Used libraries</string>
+
+    <!-- Navigation -->
+    <string name="nav_geometry">Geometry</string>
+    <string name="nav_about">About</string>
+    <string name="nav_reward">Material Design </string>
+    <string name="nav_bank">Nearest Bank</string>
+    <string name="nav_tips">Recycler Tips</string>
+
+
+    <string name="details">Details</string>
+    <string name="version_app">1.0.0</string>
+    <string name="tips">
+        1. Pilah Sampah berdasarkan kategorinya organik / anorganik \n\n
+        2. Kreasikan sampah tersebut menjadi barang yang dapat digunakan kembali\n\n
+        3. Dan anda bisa promosikan atau menjual ke teman anda\n\n
+        4. Anda bisa saja mengirimkan sampah anda ke bank sampah terdekat melalui samita agar dapat diproses
+    </string>
+    <string name="layout">Layout</string>
+    <string name="deskripsi">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs.</string>
+    <string name="nav_home">Home</string>
+
+    <string name="aboutme">UX / UI Mobile Application\nFront-End Android Developer</string>
+</resources>

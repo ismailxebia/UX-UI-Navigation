@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:focusableInTouchMode="true">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/svLog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="32dp"
+                    android:orientation="vertical">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/side"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Side"
+                        android:inputType="number"
+                        android:textSize="15dp"
+                        app:met_baseColor="#e11cb6"
+                        app:met_floatingLabel="normal"
+                        app:met_floatingLabelTextColor="#000"
+                        app:met_primaryColor="#00fd7777"
+                        app:met_singleLineEllipsis="true"
+                        app:met_textColor="#6c6c6c"
+                        app:met_textColorHint="#98c6c6c6"
+                        app:met_typeface="fonts/NunitoSans-Regular.ttf"
+                        app:met_underlineColor="#e1e1e1" />
+
+                    <Button
+                        android:id="@+id/has"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hasil"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                app:cardBackgroundColor="#ffffff"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="32dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.pixplicity.fontview.FontAppCompatTextView
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Volume"
+                            android:textStyle="bold" />
+
+                        <com.pixplicity.fontview.FontAppCompatTextView
+                            android:id="@+id/volume"
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="0"
+                            android:textColor="#6b6b6b" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <com.pixplicity.fontview.FontAppCompatTextView
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Area"
+                            android:textStyle="bold" />
+
+                        <com.pixplicity.fontview.FontAppCompatTextView
+                            android:id="@+id/area"
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="0"
+                            android:textColor="#6b6b6b" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal">
+
+                        <com.pixplicity.fontview.FontAppCompatTextView
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Perimeter"
+                            android:textStyle="bold" />
+
+                        <com.pixplicity.fontview.FontAppCompatTextView
+                            android:id="@+id/kel"
+                            style="@style/FontTextViewStyle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="0"
+                            android:textColor="#6b6b6b" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

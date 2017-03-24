@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="32dp"
+    android:paddingTop="32dp"
+    android:background="@drawable/gra_white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="15dp"
+        android:src="@mipmap/classroom" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <com.pixplicity.fontview.FontAppCompatTextView
+            style="@style/FontTextViewStyle"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="E-Learning" />
+
+        <com.pixplicity.fontview.FontAppCompatTextView
+            style="@style/FontTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="10dp"
+            android:textColor="#767676"
+            android:layout_height="wrap_content"
+            android:text="Easy Way for English Learning" />
+
+    </LinearLayout>
+
+</LinearLayout>

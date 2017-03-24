@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_1"
+            android:icon="@drawable/ic_cube_outline_black_48dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_2"
+            android:icon="@drawable/ic_format_line_style_black_48dp"
+            android:title="Struktur" />
+        <item
+            android:id="@+id/nav_3"
+            android:icon="@drawable/ic_message_text_outline_black_48dp"
+            android:title="Percakapan" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_5"
+                    android:icon="@drawable/ic_nav_settings"
+                    android:title="Settings" />
+                <item
+                    android:checkable="true"
+                    android:id="@+id/nav_6"
+                    android:icon="@drawable/ic_person"
+                    android:title="About Us" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

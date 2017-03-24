@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gra_white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/back_splash"
+        android:scaleType="centerCrop"
+        android:alpha="0.3"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splash" />
+
+    <com.pixplicity.fontview.FontAppCompatTextView
+        style="@style/FontTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="140dp"
+        android:text="Calca+"
+        android:textSize="22dp"
+        android:textColor="#5a000000"
+        android:textStyle="bold" />
+
+    <com.pixplicity.fontview.FontAppCompatTextView
+        style="@style/FontTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="115dp"
+        android:text="New Discovery in Math"
+        android:textSize="14dp"
+        android:textColor="#45000000"
+        android:textStyle="italic" />
+
+</RelativeLayout>
